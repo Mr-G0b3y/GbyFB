@@ -1,4 +1,12 @@
-#Peringatan : hati" Akun Anda kena checkpoint !
+clear
+echo "\033[34;1m Selamat Datang di Tool Mr-G0B3Y"
+sleep 1
+echo "\033[35;1m Anda disini dapat menggunakan Tools Facebook" | lolcat
+sleep 1
+echo "\033[31;1m [  Semoga Bermanfaat  ]"
+sleep 1
+clear
+
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
