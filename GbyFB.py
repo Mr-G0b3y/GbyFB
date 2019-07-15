@@ -1,4 +1,4 @@
-#NOTE : HATI HATI SESI AKUNMU !
+#Note: HATI HATI SESI AKUNMU !
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -22,7 +22,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = '\xe2\x95\x90\xe2\x95\x9d \x1b[0m\n[*] Tools Facebook by Mr-G0B3Y\n'
+logo = ''\x1b[1;92m\n \x1b[1;93mv1.6\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mG0B3Y\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96mG0B3Y\n\x1b[0m\n[*] TOOLS FB BY MR-G0B3Y\n'
 
 def tik():
     titik = [
