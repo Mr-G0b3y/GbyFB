@@ -1,12 +1,4 @@
-clear
-echo "\033[34;1m Selamat Datang di Tool Mr-G0B3Y"
-sleep 1
-echo "\033[35;1m Anda disini dapat menggunakan Tools Facebook" | lolcat
-sleep 1
-echo "\033[31;1m [  Semoga Bermanfaat  ]"
-sleep 1
-clear
-
+#NOTE : HATI HATI SESI AKUNMU !
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -30,7 +22,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = '\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mv1.6\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mG0B3Y\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/Mr-G0B3Y/GbyFB\x1b[0m\n[*] Tools Facebook by Mr-G0B3Y A.k.a BACOT BROTHERHOOD\n'
+logo = '\xe2\x95\x90\xe2\x95\x9d \x1b[0m\n[*] Tools Facebook by Mr-G0B3Y\n'
 
 def tik():
     titik = [
